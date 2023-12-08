@@ -1,9 +1,9 @@
 # 2in1_BrickBreaker_ShapeMatch
 Simple JS &amp; WebGL based games. A shape matcher puzzle game and a Webgl based brick breaker interactive game. 
 
+![ShapeMatchScreenshot_resized_1024x768](https://github.com/sudogamer/2in1_BrickBreaker_ShapeMatch/assets/66490372/1d01c3de-5ab0-47e5-a260-ea66e16dd426) ![brickbreaker_resized_1024x768](https://github.com/sudogamer/2in1_BrickBreaker_ShapeMatch/assets/66490372/cf27eba3-a1f0-4712-9c81-5722805b14ed)
 
-![brickbreaker_resized](https://github.com/sudogamer/2in1_BrickBreaker_ShapeMatch/assets/66490372/d079be5a-4661-4a66-a582-96f9ce83d529)
-![ShapeMatchScreenshot_resized](https://github.com/sudogamer/2in1_BrickBreaker_ShapeMatch/assets/66490372/4ac7f91b-0db1-43cd-b63e-48419384c35b)
+
 
 * To overcome CORS policy restrictions please follow below steps,
 1. Serve your game files through a local server. This makes the files accessible via http:// or https:// rather than file://, which avoids the CORS restriction.
