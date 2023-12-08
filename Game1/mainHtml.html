@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'/>
+    <script type="text/javascript" src="libs.js"></script>
+    <script type="text/javascript" src="renderWebGL.js"></script>
+
+  </head>
+  <body style='margin:0px' onload='main()'>
+    <canvas id='your_canvas'
+            style='position: absolute; background-color: black;'></canvas>
+    <div id="Score" style="position: absolute;  display: block;
+    top: 100px; left: 730px; width:150px; text-align: center; height: 70px; background-color: white;" ></div>
+
+    <div id="Timer" style="position: absolute;  display: block;
+    top: 20px; left: 700px; width:200px; text-align: center; height: 60px; background-color: white;" ></div>
+
+    <div id="TimeOUT" style="position: absolute;  display: block;
+    top: 350px; left: 700px; width:400; text-align: center; height: 60px; background-color: white;" ></div>
+
+    <div id="Message" style="position: absolute;  display: block;
+    top: 550px; left: 750px; width:400; text-align: center; height: 60px; background-color: white;" ></div>
+
+    <button  onclick="nextLevel()"  style="position: absolute;  display: block;
+    top: 650px; left: 780px; width:100px;  height: 50px; background-color: white;" ><h2>NEXT</h2></button>
+
+    <script>
+    function myFunction() {
+    game.gameOn = true;
+    }
+
+    function nextLevel() {
+      if(!game.level2)
+      {
+        game.timer = true;
+        game.timeActual = 10;
+        game.level2 = true;
+      }
+      else if(!game.level3)
+      {
+        game.timer = true;
+        game.timeActual = 10;
+        game.level3 = true;
+      }
+      else if(!game.level4)
+      {
+        game.timer = true;
+        game.timeActual = 10;
+        game.level4 = true;
+      }
+      else if(game.level1 && game.level2 && game.level3 && game.level4)
+      {
+       game.gameOn = false;
+      }
+    }
+    </script>
+
+  </body>
+</html>
